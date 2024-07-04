@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Adicionei para centralizar verticalmente */
+    height: 100vh; /* Garante que o corpo ocupa toda a altura da viewport */
+    margin: 0; /* Remove margens padrão */
+    background-color: #f0f0f0; /* Cor de fundo de exemplo */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+#display {
+    text-align: right;
+    font-size: 32px;
+    display: flex;
+    height: 60px;
+    width: 290px;
+    box-shadow: rgba(0, 0, 0, 0.68) 0px 0px 15px -2px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px; 
+}
+
+#result {
+    height: 135px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo do main horizontalmente */
+}
+
+.calculatorButtons {
+    padding: 20px; /* Ajuste o padding para definir o tamanho */
+    width: 60px; /* Define a largura fixa para os botões */
+    height: 60px; /* Define a altura fixa para os botões */
+    font-family: 'Bebas Neue', sans-serif; /* Corrige a fonte */
+    font-size: 24px;
+    color: #fff;
+    background-color: #303136;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.68) 0px 0px 15px -2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.calculatorButtons:hover {
+    background-color: #fff;
+    color: #0f8ff7;
+    transform: translateY(-3px); /* Efeito de levantamento ao passar o mouse */
+}
+
+#num0 {
+    width: 135px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <import
+        url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap')>
+    </import>
+    <script src="../app/js/calculadora.js" defer></script>
+    <link rel="stylesheet" href="../app/assets/css/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <header>
+        <div class="calculator">
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" id="display" readonly>
+                    </td>
+                </tr>
+    </header>
+    <main class="container">
+        <tr>
+            <div id="linha_1">
+                <td><button class="calculatorButtons" id="cleanDisplay" value="C">C</td>
+                <td><button class="calculatorButtons" id="deleteDigit" value="CE">CE</td>
+                <td><button class="calculatorButtons" id="division" value="/">&divide;</td>
+                <td><button class="calculatorButtons" id="multiplication" value="*">&times;</td>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td><button class="calculatorButtons" id="num7" value="7">7</td>
+                <td><button class="calculatorButtons" id="num8" value="8">8</td>
+                <td><button class="calculatorButtons" id="num9" value="9">9</td>
+                <td><button class="calculatorButtons" id="subtraction" value="-">-</td>
+            </div>
+        </tr>
+        <tr>
+            <td><button class="calculatorButtons" id="num4" value="4">4</td>
+            <td><button class="calculatorButtons" id="num5" value="5">5</td>
+            <td><button class="calculatorButtons" id="num6" value="6">6</td>
+            <td><button class="calculatorButtons" id="sum" value="+">+</td>
+
+        </tr>
+        <tr>
+            <td><button class="calculatorButtons" id="num1" value="1">1</td>
+            <td><button class="calculatorButtons" id="num2" value="2">2</td>
+            <td><button class="calculatorButtons" id="num3" value="3">3</td>
+            <td rowspan="2"><button class="calculatorButtons" id="result" value="=">=</td>
+
+        </tr>
+        <tr>
+            <td colspan="2"><button class="calculatorButtons" id="num0" value="0">0</td>
+            <td><button class="calculatorButtons" id="point" value=".">.</td>
+
+
+        </tr>
+        </table>
+        </div>
+    </main>
+</body>
+
+</html>
